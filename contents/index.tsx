@@ -26,7 +26,10 @@ const Content = () => {
 
   const changeRecord = (e) => {
     e.stopPropagation();
-    arrClicRef.current = [];
+
+    if (!isRecord) {
+      arrClicRef.current = [];
+    }
     setIsRecord(!isRecord);
   }
 
