@@ -1,0 +1,15 @@
+.content {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.record-btn {
+  width: 100px;
+  padding: 10px 20px;
+  color: white;
+  background: blue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

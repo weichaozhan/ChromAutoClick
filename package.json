@@ -25,7 +25,21 @@
   },
   "manifest": {
     "host_permissions": [
-      "https://*/*"
-    ]
+      "https://*/*",
+      "<all_urls>"
+    ],
+    "manifest" : {
+      "permissions": [
+        "scripting",
+        "tabs",
+        "activeTab",
+        "storage",
+        "webNavigation",
+        "top-level-storage-access",
+        "fileBrowserHandler",
+        "filesystemProvider",
+        "contextMenus"
+      ]
+    }
   }
 }
